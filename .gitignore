@@ -1,0 +1,8 @@
+*_history
+*secret
+.zcompdump*
+*.backup
+*.swo
+*.swp
+*.tmp
+

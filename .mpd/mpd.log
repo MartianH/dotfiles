@@ -1,0 +1,185 @@
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 11 Little Fling.mp3
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 08 Transparency.mp3
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 03 Finesse (Hey Baby).mp3
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 01 Pleasure Palette.mp3
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 04 A Beautiful Soul (Feat. BeRod).mp3
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 09 I don't really care.mp3
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 05 On a Cloud (Feat. Beatmachinearon).mp3
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 07 Now Or Never (Feat. Macross 82-99).mp3
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 02 Down For The Fifth Time.mp3
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 10 Wearing a Smile.mp3
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 12 Football Head.mp3
+Jul 10 02:00 : update: added Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 06 love me in the evening.mp3
+Jul 10 02:10 : client: [0] opened from [::1]:57720
+Jul 10 02:11 : client: [0] closed
+Jul 10 02:12 : client: [1] opened from [::1]:57722
+Jul 10 02:14 : client: [1] closed
+Jul 10 02:17 : client: [2] opened from [::1]:57748
+Jul 10 02:17 : client: [2] closed
+Jul 10 02:18 : client: [3] opened from [::1]:57758
+Jul 10 02:19 : client: [3] closed
+Jul 10 03:52 : client: [4] opened from [::1]:57796
+Jul 10 03:52 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 02 Down For The Fifth Time.mp3"
+Jul 10 03:52 : client: [4] closed
+Jul 10 04:46 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 02 Down For The Fifth Time.mp3"
+Jul 20 20:58 : client: [0] opened from [::1]:49664
+Jul 20 20:59 : client: [0] closed
+Jul 20 21:00 : client: [1] opened from [::1]:49666
+Jul 20 21:01 : client: [1] closed
+Jul 20 21:01 : client: [2] opened from [::1]:49668
+Jul 20 21:01 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 02 Down For The Fifth Time.mp3"
+Jul 20 21:04 : client: [2] closed
+Jul 20 21:04 : client: [3] opened from [::1]:49672
+Jul 20 21:04 : client: [3] closed
+Jul 20 21:04 : client: [4] opened from [::1]:49688
+Jul 20 21:06 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 02 Down For The Fifth Time.mp3"
+Jul 20 21:07 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 01 Pleasure Palette.mp3"
+Jul 20 21:07 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 03 Finesse (Hey Baby).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:10 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:10 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:10 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:10 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:10 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:10 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:10 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:10 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:10 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:10 : output: Failed to open audio output
+Jul 20 21:10 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 12 Football Head.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:10 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:10 : output: Failed to open audio output
+Jul 20 21:10 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 10 Wearing a Smile.mp3"
+Jul 20 21:10 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 10 Wearing a Smile.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:10 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:10 : output: Failed to open audio output
+Jul 20 21:10 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 09 I don't really care.mp3"
+Jul 20 21:10 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 09 I don't really care.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:10 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:10 : output: Failed to open audio output
+Jul 20 21:10 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 08 Transparency.mp3"
+Jul 20 21:10 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 08 Transparency.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:10 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:10 : output: Failed to open audio output
+Jul 20 21:10 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 07 Now Or Never (Feat. Macross 82-99).mp3"
+Jul 20 21:10 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 07 Now Or Never (Feat. Macross 82-99).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:10 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:10 : output: Failed to open audio output
+Jul 20 21:10 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 06 love me in the evening.mp3"
+Jul 20 21:10 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 06 love me in the evening.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:10 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:10 : output: Failed to open audio output
+Jul 20 21:10 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 05 On a Cloud (Feat. Beatmachinearon).mp3"
+Jul 20 21:11 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 05 On a Cloud (Feat. Beatmachinearon).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:11 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:11 : output: Failed to open audio output
+Jul 20 21:11 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 04 A Beautiful Soul (Feat. BeRod).mp3"
+Jul 20 21:11 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 04 A Beautiful Soul (Feat. BeRod).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:11 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:11 : output: Failed to open audio output
+Jul 20 21:11 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 11 Little Fling.mp3"
+Jul 20 21:11 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 11 Little Fling.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:11 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:11 : output: Failed to open audio output
+Jul 20 21:11 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 01 Pleasure Palette.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:11 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:11 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:11 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:11 : output: Failed to open audio output
+Jul 20 21:12 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 01 Pleasure Palette.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+Jul 20 21:12 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 01 Pleasure Palette.mp3"
+Jul 20 21:12 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 01 Pleasure Palette.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+Jul 20 21:12 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 01 Pleasure Palette.mp3"
+Jul 20 21:12 : client: [4] closed
+Jul 20 21:12 : client: [5] opened from [::1]:49690
+Jul 20 21:12 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 01 Pleasure Palette.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+Jul 20 21:12 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 12 Football Head.mp3"
+Jul 20 21:12 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 12 Football Head.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+Jul 20 21:12 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 12 Football Head.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+Jul 20 21:12 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 12 Football Head.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+Jul 20 21:12 : player: problems opening audio device while playing "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 08 Transparency.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Jul 20 21:12 : alsa_output: Failed to open "mpd out" [alsa]: Failed to open ALSA device "default": Device or resource busy
+Jul 20 21:12 : output: Failed to open audio output
+Jul 20 21:13 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 08 Transparency.mp3"
+Jul 21 19:29 : client: [0] opened from [::1]:52282
+Jul 21 19:29 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 08 Transparency.mp3"
+Jul 21 19:31 : client: [0] closed
+Jul 21 19:32 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 10 Wearing a Smile.mp3"
+Jul 21 19:35 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 09 I don't really care.mp3"
+Jul 21 19:36 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 08 Transparency.mp3"
+Jul 21 19:43 : client: [0] opened from [::1]:52498
+Jul 21 19:43 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 08 Transparency.mp3"
+Jul 21 19:46 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 09 I don't really care.mp3"
+Jul 21 19:48 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 08 Transparency.mp3"
+Jul 21 21:46 : client: [0] opened from [::1]:53296
+Jul 21 21:46 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 10 Wearing a Smile.mp3"
+Jul 21 21:49 : client: [0] closed
+Jul 21 21:50 : client: [1] opened from [::1]:53298
+Jul 21 21:50 : client: [1] closed
+Jul 21 22:20 : client: [2] opened from [::1]:53358
+Jul 21 22:20 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 12 Football Head.mp3"
+Jul 21 22:20 : output: Failed to open audio output
+Jul 21 22:20 : output: Failed to open audio output
+Jul 21 22:20 : client: [2] closed
+Jul 21 22:20 : player: played "Flamingosis/Pleasure Palette/Flamingosis - Pleasure Palette - 10 Wearing a Smile.mp3"

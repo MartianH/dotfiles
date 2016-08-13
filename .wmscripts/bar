@@ -1,0 +1,15 @@
+#!/bin/sh
+
+. ~/.wmscripts/panel_functions
+
+delay=0.2
+out=""
+while true; do
+    out="%{l}%{F#FF000000} $(Menu) %{F-}%{B-}"
+    out="$out%{c}%{F#FF000000} $(Clock) %{F-}%{B-}"
+    out="$out%{r}%{F#FF000000} $(Battery)"
+
+    echo -e " $out "
+    sleep $delay;
+done | lemonbar -o -2  -f "Anonymous Pro:style=Bold:size=12" -o -2 -f "Icons:style=Regular:size=16" -p | sh
+

@@ -1,0 +1,39 @@
+#!bin/sh
+
+Battery() {
+	BATTERYPC_INT=$(cat /sys/class/power_supply/BAT0/capacity)
+	BATPERC="$BATTERYPC_INT%"
+	BATSTATE=$(cat /sys/class/power_supply/BAT0/status)
+	BATTERY=""
+	case "$BATSTATE" in
+		Charging )
+				BATTERY="$BATPERC \uf211"
+			;;
+		Discharging )
+				if [[ $BATTERYPC_INT -gt 99 ]]; then
+					BATTERY="$BATPERC \uf213"
+				fi
+				if [[ $BATTERYPC_INT -gt 75 ]] && [[ $BATTERYPC_INT -lt 99 ]]; then
+					BATTERY="$BATPERC \uf214"
+				fi
+				if [[ $BATTERYPC_INT -gt 50 ]] && [[ $BATTERYPC_INT -lt 75 ]]; then
+					BATTERY="$BATPERC \uf214"
+				fi
+				if [[ $BATTERYPC_INT -gt 15 ]] && [[ $BATTERYPC_INT -lt 50 ]]; then
+					BATTERY="$BATPERC \uf215"
+				fi
+				if [[ $BATTERYPC_INT -lt 15 ]]; then
+					BATTERY="$BATPERC \uf212"
+				fi
+			;;
+	esac
+
+	echo "$BATTERY"
+}
+
+# Print the percentage
+while true; do
+	
+	echo -e "%{r}%{F#FF000000} $(Battery)"
+        sleep 1;
+done
