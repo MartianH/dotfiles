@@ -1,3 +1,1 @@
-syntax on
-set number
-"colorscheme onedark
+/home/martialh/.vimrc
