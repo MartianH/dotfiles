@@ -1,0 +1,10 @@
+#!/bin/fish
+
+set SESSION_NAME 'dotsound'
+
+tmux new -d -s $SESSION_NAME
+tmux new-window -t $SESSION_NAME:1 -n 'mopidy' 'mopidy'
+sleep 0.5
+tmux new-window -t $SESSION_NAME:2 -n 'player' 'ncmpcpp'
+tmux select-window -t $SESSION_NAME:2 
+tmux attach -t $SESSION_NAME

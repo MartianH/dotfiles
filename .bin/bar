@@ -1,0 +1,29 @@
+#!/bin/sh
+
+. ~/.bin/panel_functions
+
+delay=0.2
+out=""
+PRIMARY_ACCENT_COLOR="#a54242"
+SECUNDARY_ACCENT_COLOR="#de935f"
+BG_COLOR="#DD000000"
+FG_COLOR="#FFFFFF"
+while true; do
+    out="%{l}%{F$FG_COLOR}$(Home)%{F-}%{B-}"
+    out="$out%{F$SECUNDARY_ACCENT_COLOR} $(whoami)%{F-}%{B-}"
+    out="$out%{F$FG_COLOR}@%{F-}%{B-}"
+    out="$out%{F$FG_COLOR}$(hostname)%{F-}%{B-}"
+    out="$out%{F$PRIMARY_ACCENT_COLOR} $(Music)%{F-}%{B-}"
+    out="$out%{r}%{F$FG_COLOR} $(Clock)|%{F-}%{B-}"
+    out="$out%{F#CECECE} $(Volume)%{F-}%{B-}"
+    out="$out $(Battery)"
+
+    echo -e " $out "
+    sleep $delay;
+done | lemonbar \
+			-o -2 -f "Anonymous Pro:style=Bold:size=12" \
+			-o -0 -f "Icons:style=Regular:size=14" \
+			-B $BG_COLOR \
+			-g 1920x16
+			-p | sh
+

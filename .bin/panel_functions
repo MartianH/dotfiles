@@ -1,0 +1,86 @@
+#!bin/sh
+
+Home() {
+	echo -e "\uF3C5"
+}
+
+Music() {
+	MOPIDY_PID=$(pgrep mopidy)
+	if [[ -n $MOPIDY_PID ]]; then
+		SONG_INFO=$(mpc current -f "[[%artist% -] %title% [:: %album%]] | [%file%]")
+		DURATION_INFO=$(mpc | grep -oE '[0-9]{1,2}:[0-9]{2}/[0-9]{1,2}:[0-9]{2}')
+		if [[ -n $SONG_INFO ]] && [[ -n $DURATION_INFO ]]; then
+			echo -e "$SONG_INFO ($DURATION_INFO)"
+		else
+			echo -e ""
+		fi
+	else
+		echo -e ""
+	fi
+}
+
+Clock() {
+        DATETIME=$(date "+%a %b %d, %T")
+        echo -n "$DATETIME"
+}
+
+Battery() {
+	BATTERYPC_INT=$(cat /sys/class/power_supply/BAT0/capacity)
+	BATPERC="$BATTERYPC_INT%"
+	BATSTATE=$(cat /sys/class/power_supply/BAT0/status)
+	BATTERY=""
+	case "$BATSTATE" in
+		Charging )
+				BATTERY="%{F#30AE49} $BATPERC \uf211"
+			;;
+		Discharging )
+				if [[ $BATTERYPC_INT -gt 75 ]] && [[ $BATTERYPC_INT -le 100 ]]; then
+					BATTERY="%{F#b5bd68}$BATPERC \uf214"
+				fi
+				if [[ $BATTERYPC_INT -gt 50 ]] && [[ $BATTERYPC_INT -le 75 ]]; then
+					BATTERY="%{F#D8F074}$BATPERC \uf214"
+				fi
+				if [[ $BATTERYPC_INT -gt 15 ]] && [[ $BATTERYPC_INT -le 50 ]]; then
+					BATTERY="%{F#f0c674}$BATPERC \uf215"
+				fi
+				if [[ $BATTERYPC_INT -le 15 ]]; then
+					BATTERY="%{F#D73C4D}$BATPERC \uf212"
+				fi
+			;;
+	esac
+
+	echo "$BATTERY"
+}
+
+Volume() {
+	IS_MUTED=$(pactl list sinks | grep Mute | cut -d: -f2 | cut -b2-)
+	VOL_PCT=$(pactl list sinks | grep "Volume: front" | awk -F'[/|/]' '{print $4}')
+	VOLUME_INT=$(echo "$VOL_PCT" | cut -d% -f1)
+	VOLUME=""
+
+	case $IS_MUTED in
+		"no"  ) 
+				if [[ $VOLUME_INT -gt 66 ]]; then
+					VOLUME="$VOL_PCT\uF357"
+				fi
+				if [[ $VOLUME_INT -le 66 ]]  &&  [[ $VOLUME_INT -gt 33 ]]; then
+					VOLUME="$VOL_PCT\uF359"
+				fi
+				if [[ $VOLUME_INT -le 33 ]]  &&  [[ $VOLUME_INT -gt 0 ]]; then
+					VOLUME="$VOL_PCT\uF358"
+				fi
+				if [[ $VOLUME_INT -eq 0 ]]; then
+					VOLUME="Mute\uF35A"
+				fi
+			 ;;
+		"yes" ) 	VOLUME="Mute\uF35A"
+			 ;;
+	esac
+
+	echo -e "$VOLUME"
+}
+
+Wifi() {
+	SSID=$(iw dev wlp1s0 link | grep SSID | cut -d: -f2 | cut -b2-)
+		
+} 

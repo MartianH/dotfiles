@@ -1,0 +1,3 @@
+#!/bin/sh
+urxvt -bg rgba:0000/0000/0000/0000 -e cava &
+

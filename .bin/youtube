@@ -1,0 +1,3 @@
+#!/bin/sh
+
+2>/dev/null 1>/dev/null qutebrowser youtube.com &
